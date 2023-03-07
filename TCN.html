@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en" class="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Pretained Image Recognition Models">
+    <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.9">
+    <title>(TCN) Temporal
+        Convolutional
+        Networks
+    </title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href=""
+        href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script> -->
+
+</head>
+
+<body>
+    <header class="">
+        <nav class="navbar navbar-expand-lg navbar-light bg txt-white fixed-top">
+            <div class="container-fluid container">
+                <div class="">
+                    <label><i class="ri-bar-chart-grouped-line"></i></label>
+                    <a class="navbar-brand txt-white" href="#">Int Elligence</a>
+                </div>
+
+                <div class="d-flex ">
+                    <a class="navbar-brand txt-white" href="https://github.com/IntElligence0">Packages</a>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="sec-margin-top">
+        <div>
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="margin-top">
+                            <h5>Tensorflow Forcasting Models</h5>
+                            <div id="myDIV">
+                                <div class=" flex activation margin-top active" style="width: 35%;">
+                                    <a class="activation" href="index.html"><i class="ri-home-gear-fill"></i>
+
+                                        <p style="margin-top: -26px; margin-left: 18px;">Getting start</p>
+                                    </a>
+                                </div>
+
+                                <div class=" flex activation active" style="width: 42%;">
+                                    <a class="activation" href="model summary.html"><i class="ri-file-list-3-fill"></i>
+                                        <p style="margin-top: -26px; margin-left: 18px;">Model summarize</p>
+                                    </a>
+                                </div>
+                                <div class="dropdown" style="width: 416px;">
+                                    <a class="dropdown-toggle" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="ri-article-fill"></i>
+                                        Model Pages
+                                    </a>
+
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink"
+                                        style="overflow: scroll; height: 357px;">
+                                        <li><a class="dropdown-item activation hov" href="TCN.html">Temporal
+                                                Convolutional
+                                                Networks
+                                                TCN</a>
+                                        </li>
+                                        <li><a class="dropdown-item activation hov"
+                                                href="transformer.html">Transformer</a></li>
+                                        <li><a class="dropdown-item activation hov" href="performer.html">Performer</a>
+                                        </li>
+                                        <li><a class="dropdown-item activation hov" href="CNN-LSTM.html">CNN Long
+                                                Short-Term Memory
+                                                Networks (CNN-LSTM)</a></li>
+                                        <li><a class="dropdown-item activation hov" href="Time distributed.html">Time
+                                                Distributed</a></li>
+                                        <li><a class="dropdown-item activation hov" href="Bi-lstm.html">Bi-directional
+                                                long short
+                                                term memory (Bi-LSTM)</a></li>
+                                        <li><a class="dropdown-item activation hov" href="BiGru.html">Bi-directional
+                                                Gated
+                                                Recurrent Units (Bi-GRU)</a></li>
+                                        <li><a class="dropdown-item activation hov" href="gru.html">Gated Recurrent
+                                                Units
+                                                (GRU)</a></li>
+                                        <li><a class="dropdown-item activation hov" href="cnn.html">Convolutional Neural
+                                                Network (CNN)</a></li>
+                                        <li><a class="dropdown-item activation hov" href="lstm.html">Long Short-Term
+                                                Memory
+                                                networks (LSTM)</a></li>
+                                        <li><a class="dropdown-item activation hov" href="deepar.html">DeepAR</a></li>
+                                        <li><a class="dropdown-item activation hov" href="tlnn.html">Time Lagged
+                                                Neural
+                                                Network (TLNN)</a></li>
+                                        <li><a class="dropdown-item activation hov" href="bert.html">Bidirectional
+                                                Encoder Representations from Transformers
+                                                (Bert)</a></li>
+                                        <li><a class="dropdown-item activation hov" href="Seq2seq.html">Seq2Seq
+                                            </a></li>
+                                        <li><a class="dropdown-item activation hov" href="fnn.html">feedforward neural
+                                                network (FNN)
+                                            </a></li>
+                                        <li><a class="dropdown-item activation hov" href="N-BEATS.html">N-BEATS
+                                            </a></li>
+                                        <li><a class="dropdown-item activation hov" href="Autoformer.html">Autoformer
+                                            </a></li>
+                                        <li><a class="dropdown-item activation hov" href="rbfn.html">Radial basis
+                                                function network (RBFN)
+                                            </a></li>
+                                        <li><a class="dropdown-item activation hov" href="mlp.html">mlp
+                                            </a></li>
+                                        <li><a class="dropdown-item activation hov" href="convlstm.html">convlstm
+                                            </a></li>
+                                        <li><a class="dropdown-item activation hov" href="informer.html">Informer
+                                            </a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <div class=" flex activation margin-top active" style="width: 35%;">
+                                        <a class="activation" href="result.html"><i class="ri-question-answer-fill"></i>
+
+                                            <p style="margin-top: -26px; margin-left: 18px;">Results</p>
+                                        </a>
+                                    </div>
+                                    <div class=" flex activation  active" style="width: 42%;">
+                                        <a class="activation" href="index.html"><i class="ri-file-edit-fill"></i>
+
+                                            <p style="margin-top: -26px; margin-left: 18px;">Recent changes</p>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-9 col-md-12 col-sm-9 body">
+
+                        <main>
+                            <h1 class="">Basic TCN Overview</h1>
+                            <div>
+                                <p>
+                                    Given input_length, kernel_size, dilation_base and the minimum number of layers
+                                    required for full history coverage, the
+                                    basic TCN network would look something like this:
+                                </p>
+                                <div class="bg-light-gray bg-size">
+                                    <img src="img\image-43.png">
+                                </div>
+
+                            </div>
+                            <div>
+                                <p>
+                                    A TCN, short for Temporal Convolutional Network, consists of dilated, causal 1D
+                                    convolutional layers with the same input
+                                    and output lengths. The following sections go into detail about what these terms
+                                    actually mean.
+                                </p>
+                            </div>
+                            <div>
+                                <h2 class="">Causal Convolution</h2>
+
+                                <div>
+                                    <p>For a convolutional layer to be causal, for every i in {0, …, input_length — 1}
+                                        the i’th element of the output sequence
+                                        may only depend on the elements of the input sequence with indices {0, …, i}. In
+                                        other words, an element in the output
+                                        sequence can only depend on elements that come before it in the input sequence
+                                    </p>
+                                </div>
+                                <div class="bg-light-gray bg-size">
+                                    <img src="img\image-32.png">
+                                </div>
+                                <p>We can see that with a left zero-padding of 2 entries we can achieve the same output
+                                    length while obeying the causality
+                                    rule. In fact, without dilation, the number of zero-padding entries required for
+                                    maintaining the input length is always
+                                    equal to kernel_size–1.</p>
+                            </div>
+
+                            <div>
+                                <h3 class="">Dilation</h3>
+
+                                <div>
+                                    <p>One desirable quality of a forecasting model is that the value of a specific
+                                        entry in the output depends on all previous
+                                        entries in the input, i.e. all entries that have an index smaller or equal to
+                                        itself.
+                                    </p>
+                                    <div class="bg-light-gray bg-size">
+                                        <img src="img\image-33.png">
+                                    </div>
+                                    <p>More generally, a 1D convolutional network with n layers and a kernel_sizek has a
+                                        receptive field r of size</p>
+                                    <p class="txt-align">r=1+n*(k-1)</p>
+                                    <p>To know how many layers are needed for full coverage, we can set the receptive
+                                        field size to input_length l and solve
+                                        for the number of layers n (we need to round up in case of non-integer values):
+                                    </p>
+                                    <p class="txt-align">n=[(l-1)/(k-1)]</p>
+                                    <p>
+                                        This means that, given a fixed kernel_size, the number of layers required for
+                                        full history coverage is linear in the
+                                        length of the input tensor, which will result in networks that become very deep
+                                        very fast, leading to models with a very
+                                        large number of parameters that take longer to train. Furthermore, a high number
+                                        of layers has been shown to lead to
+                                        degradation problems related to the gradient of the loss function. One way to
+                                        increase the receptive field size while
+                                        still keeping the number of layers relatively small is to introduce dilation to
+                                        the convolutional network.
+                                    </p>
+                                    <br><br>
+                                    <p>Dilation in the context of a convolutional layer refers to the distance between
+                                        the elements of the input sequence that
+                                        are used to compute one entry of the output sequence. So a conventional
+                                        convolutional layer could be seen as a 1-dilated
+                                        layer, since the input elements for 1 output value are adjacent. The following
+                                        figure shows an example of a 2-dilated
+                                        layer with an input_length of 4 and a kernel_size of 3.</p>
+                                    <div class="bg-light-gray bg-size">
+                                        <img src="img\image-36.png">
+                                    </div>
+                                    <p>Compared to the 1-dilated case, this layer has a receptive field that spreads
+                                        across a length of 5 rather than 3. More
+                                        generally, a d-dilated layer with a kernel size k has a receptive field
+                                        spreading across a length of 1+d*(k-1). If d is
+                                        fixed, this will still require a number linear in the length of the input tensor
+                                        to achieve full receptive field
+                                        coverage (we just decreased the constant).</p>
+                                    <div class="bg-light-gray bg-size">
+                                        <img src="img\image-37.png">
+                                    </div>
+                                    <p>
+                                        Here we only show the influence of inputs that affect the last value of the
+                                        output. Likewise, only zero-padding entries
+                                        necessary for the last output value are shown. Clearly, the last output value is
+                                        dependent on the whole input coverage.
+                                        Actually, given the hyperparameters, an input_length of up to 15 could be used
+                                        while maintaining full receptive field
+                                        coverage. Generally speaking, every additional layer adds a value of d*(k-1) to
+                                        the current receptive field width, where
+                                        d is computed as d=b**i, with irepresenting the number of layers below our new
+                                        layer. Consequently, the width of the
+                                        receptive field w of a TCN with exponential dilation of base b, kernel size k
+                                        and number of layers n is given by
+                                    </p>
+                                    <div>
+                                        <img src="img\formulas_Obszar-roboczy-1-kopia-2-1-scaled.jpg" width="100%">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div>
+                                <h2>TCN model</h2>
+                                <p>now we will know how to use TCN </p>
+                                <h3>import package</h3>
+                                <div class="" id="Install">
+                                    <code class="flex" style="width:100%;">
+                                        <p class="line "  id="myText" style="padding-left: 5px;">from <span class="import-color">Energy_Models</span> import 
+                                        <span class="import-color">TCN</span> as <span class="import-color">m</span>
+                                        </p>
+                                        <!-- <button class="icon" onclick="copyContent()"><i class="ri-file-copy-line"></i></button> -->
+                                    </code>
+                                </div>
+                                <div>
+                                    <h3>call the model</h3>
+                                    <div class="" id="Install">
+                                        <code class="flex" style="width:100%;">
+                                            <p class="line "  id="myText" style="padding-left: 5px;">model = m.<span class="import-color">TCN_Model()</span>.getModel(<span class="package-color">n_steps,n_features,n_outputs</span>)
+                                            </p>
+                                            <!-- <button class="icon" onclick="copyContent()"><i class="ri-file-copy-line"></i></button> -->
+                                        </code>
+                                    </div>
+                                    <h4>model's parameter</h4>
+                                    <p><span class="package-color">n_steps</span> : number of days you want to predict
+                                        on
+                                    </p>
+                                    <p><span class="package-color">n_features</span> : number of columns in data that
+                                        will
+                                        give to model</p>
+                                    <p><span class="package-color">n_outputs</span> : number of coulmns that model will
+                                        predict and by default its equal 1</p>
+                                </div>
+                                <div>
+                                    <h3>compile the model</h3>
+                                    <div class="" id="Install">
+                                        <code class="flex" style="width:100%;">
+                                            <p class="line "  id="myText" style="padding-left: 5px;">model.compile(<span class="import-color">optimizer='adam', loss ='mse'</span>)
+                                            </p>
+                                            <!-- <button class="icon" onclick="copyContent()"><i class="ri-file-copy-line"></i></button> -->
+                                        </code>
+                                    </div>
+                                    <h4>compile parameter </h4>
+                                    <p><span class="package-color">optimizer : </span> While training the deep learning
+                                        model, we need to modify each epoch’s weights and minimize the loss function. An
+                                        optimizer is a function or an algorithm that modifies the attributes of the
+                                        neural network, such as weights and learning
+                                        rate. Thus, it helps in reducing the overall loss and improve the accuracy.
+                                        <span class="mid_grey">here we use adam</span>
+                                    </p>
+                                    <p><span class="package-color">loss : </span>the Loss function is a method of
+                                        evaluating how well your algorithm is modeling your dataset</p>
+                                </div>
+                                <div>
+                                    <h3>fit the model</h3>
+                                    <div class="" id="Install">
+                                        <code class="flex" style="width:100%;">
+                                            <p class="line "  id="myText" style="padding-left: 5px;">history = model.fit(<span class="import-color">X_train, y_train, batch_size=256, validation_split=0.3,epochs=85, verbose=1,
+                                            shuffle=False)</span>
+                                            </p>
+                                            <!-- <button class="icon" onclick="copyContent()"><i class="ri-file-copy-line"></i></button> -->
+                                        </code>
+                                    </div>
+                                    <h4>fit's parameter</h4>
+                                    <p>frist you pass your data then </p>
+                                    <p><span class="package-color">batch_size : </span>refers to the number of training
+                                        examples utilized in one iteration</p>
+                                    <p><span class="package-color">validation_split : </span>Float between 0 and 1.
+                                        Fraction of the training data to be used as validation data; selected from the
+                                        last samples in the x and y data provided, before shuffling.</p>
+                                    <p><span class="package-color">epochs : </span>The number of epochs is a
+                                        hyperparameter
+                                        that defines the number times that the learning algorithm will work through the
+                                        entire training dataset.</p>
+                                    <p><span class="package-color">verbose : </span>By setting verbose 0, 1 or 2 you
+                                        just
+                                        say how do you want to 'see' the training progress for each epoch.</p>
+
+                                </div>
+
+                                <div>
+
+
+                                    <h3>predict the moodel for testing</h3>
+                                    <div class="" id="Install">
+                                        <code class="flex" style="width:100%;">
+                                            <p class="line "  id="myText" style="padding-left: 5px;"><span class="import-color">y_pred_test</span>
+                                                =m.predict((<span class="import-color">X_test</span>
+                                            )</p>
+                                            <!-- <button class="icon" onclick="copyContent()"><i class="ri-file-copy-line"></i></button> -->
+                                        </code>
+                                    </div>
+                                </div>
+                                <div>
+
+
+                                    <h3>predict the moodel for training</h3>
+                                    <div class="" id="Install">
+                                        <code class="flex" style="width:100%;">
+                                            <p class="line "  id="myText" style="padding-left: 5px;"><span class="import-color">y_pred_test</span>
+                                                =m.predict((<span class="import-color">X_train</span>
+                                            )</p>
+                                            <!-- <button class="icon" onclick="copyContent()"><i class="ri-file-copy-line"></i></button> -->
+                                        </code>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3>Evaluation_Metrix</h3>
+                                    <h3>import package</h3>
+                                    <div class="" id="Install">
+                                        <code class="flex" style="width:100%;">
+                                        <p class="line "  id="myText" style="padding-left: 5px;">from <span class="import-color">Energy_Models</span> import 
+                                        <span class="import-color">Evaluation_Metrix</span> as <span>mx</span>
+                                        </p>
+                                        <!-- <button class="icon" onclick="copyContent()"><i class="ri-file-copy-line"></i></button> -->
+                                    </code>
+                                    </div>
+                                    <div class="" id="Install">
+                                        <code class="flex" style="width:100%;">
+                                            <p class="line "  id="myText" style="padding-left: 5px;">mx.print_metrics(<span class="import-color">y_train,y_pred_train,y_test
+                                                ,y_pred_test</span>
+                                                =m.predict((<span class="import-color">X_train</span>
+                                            )</p>
+                                            <!-- <button class="icon" onclick="copyContent()"><i class="ri-file-copy-line"></i></button> -->
+                                        </code>
+                                    </div>
+                                </div>
+                                <h3>build it from scratch</h3>
+                                <div class="" id="Install">
+                                    <code class="flex" style="width:100%;">
+                                            <p class="line "  id="myText" style="padding-left: 5px;"> <a href="https://github.com/IntElligence0/Energy_apps_Tk/blob/main/models_from_scratch/TCN.py" class=""><span class="import-color padding">THE SOURCE CODE <i style="float:right;" class="padding ri-code-box-fill"></i></span></a>
+                                            </p>
+                                            <!-- <button class="icon" onclick="copyContent()"><i class="ri-file-copy-line"></i></button> -->
+                                        </code>
+                                </div>
+                            </div>
+                        </main>
+                        <nav id="toc" class="Fixed">
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg text-center text-lg-start txt-white">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="txt-white" href="">created by Int Elligence Team</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>

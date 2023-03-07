@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en" class="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Pretained Image Recognition Models">
+    <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.9">
+    <title>Convolutional Neural Network</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href=""
+        href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script>__md_scope=new URL(".",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script> -->
+
+</head>
+
+<body>
+    <header class="">
+        <nav class="navbar navbar-expand-lg navbar-light bg txt-white fixed-top">
+            <div class="container-fluid container">
+                <div class="">
+                    <label><i class="ri-bar-chart-grouped-line"></i></label>
+                    <a class="navbar-brand txt-white" href="#">Int Elligence</a>
+                </div>
+
+                <div class="d-flex ">
+                    <a class="navbar-brand txt-white" href="https://github.com/IntElligence0">Packages</a>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="sec-margin-top">
+        <div>
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-3 col-sm-3">
+                        <div class="margin-top">
+                            <h5>Tensorflow Forcasting Models</h5>
+                            <div id="myDIV">
+                                <div class=" flex activation margin-top active" style="width: 35%;">
+                                    <a class="activation" href="index.html"><i class="ri-home-gear-fill"></i>
+
+                                        <p style="margin-top: -26px; margin-left: 18px;">Getting start</p>
+                                    </a>
+                                </div>
+
+                                <div class=" flex activation active" style="width: 42%;">
+                                    <a class="activation" href="model summary.html"><i class="ri-file-list-3-fill"></i>
+                                        <p style="margin-top: -26px; margin-left: 18px;">Model summarize</p>
+                                    </a>
+                                </div>
+                                <div class="dropdown" style="width: 416px;">
+                                    <a class="dropdown-toggle" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                                        aria-expanded="false"><i class="ri-article-fill"></i>
+                                        Model Pages
+                                    </a>
+
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink"
+                                        style="overflow: scroll; height: 357px;">
+                                        <li><a class="dropdown-item activation hov" href="TCN.html">Temporal
+                                                Convolutional
+                                                Networks
+                                                TCN</a>
+                                        </li>
+                                        <li><a class="dropdown-item activation hov"
+                                                href="transformer.html">Transformer</a></li>
+                                        <li><a class="dropdown-item activation hov" href="performer.html">Performer</a>
+                                        </li>
+                                        <li><a class="dropdown-item activation hov" href="CNN-LSTM.html">CNN Long
+                                                Short-Term Memory
+                                                Networks (CNN-LSTM)</a></li>
+                                        <li><a class="dropdown-item activation hov" href="Time distributed.html">Time
+                                                Distributed</a></li>
+                                        <li><a class="dropdown-item activation hov" href="Bi-lstm.html">Bi-directional
+                                                long short
+                                                term memory (Bi-LSTM)</a></li>
+                                        <li><a class="dropdown-item activation hov" href="BiGru.html">Bi-directional
+                                                Gated
+                                                Recurrent Units (Bi-GRU)</a></li>
+                                        <li><a class="dropdown-item activation hov" href="gru.html">Gated Recurrent
+                                                Units
+                                                (GRU)</a></li>
+                                        <li><a class="dropdown-item activation hov" href="cnn.html">Convolutional Neural
+                                                Network (CNN)</a></li>
+                                        <li><a class="dropdown-item activation hov" href="lstm.html">Long Short-Term
+                                                Memory
+                                                networks (LSTM)</a></li>
+                                        <li><a class="dropdown-item activation hov" href="deepar.html">DeepAR</a></li>
+                                        <li><a class="dropdown-item activation hov" href="tlnn.html">Time Lagged
+                                                Neural
+                                                Network (TLNN)</a></li>
+                                        <li><a class="dropdown-item activation hov" href="bert.html">Bidirectional
+                                                Encoder Representations from Transformers
+                                                (Bert)</a></li>
+                                        <li><a class="dropdown-item activation hov" href="Seq2seq.html">Seq2Seq
+                                            </a></li>
+                                        <li><a class="dropdown-item activation hov" href="fnn.html">feedforward neural
+                                                network (FNN)
+                                            </a></li>
+                                        <li><a class="dropdown-item activation hov" href="N-BEATS.html">N-BEATS
+                                            </a></li>
+                                        <li><a class="dropdown-item activation hov" href="Autoformer.html">Autoformer
+                                            </a></li>
+                                        <li><a class="dropdown-item activation hov" href="rbfn.html">Radial basis
+                                                function network (RBFN)
+                                            </a></li>
+                                        <li><a class="dropdown-item activation hov" href="mlp.html">mlp
+                                            </a></li>
+                                        <li><a class="dropdown-item activation hov" href="convlstm.html">convlstm
+                                            </a></li>
+                                        <li><a class="dropdown-item activation hov" href="informer.html">Informer
+                                            </a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <div class=" flex activation margin-top active" style="width: 35%;">
+                                        <a class="activation" href="result.html"><i class="ri-question-answer-fill"></i>
+
+                                            <p style="margin-top: -26px; margin-left: 18px;">Results</p>
+                                        </a>
+                                    </div>
+                                    <div class=" flex activation  active" style="width: 42%;">
+                                        <a class="activation" href="index.html"><i class="ri-file-edit-fill"></i>
+
+                                            <p style="margin-top: -26px; margin-left: 18px;">Recent changes</p>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-9 col-md-12 col-sm-9 body">
+
+                        <main>
+                            <h1 class="">Basic CNN Convolutional neural network Overview</h1>
+                            <p>
+                                Convolutional neural networks are distinguished from other neural networks by their
+                                superior performance with image,
+                                speech, or audio signal inputs. They have three main types of layers, which are:
+                            </p>
+                            <ul>
+                                <li>Convolutional layer</li>
+                                <li>Pooling layer</li>
+                                <li>Fully-connected (FC) layer</li>
+                            </ul>
+                            <p>The convolutional layer is the first layer of a convolutional network. While
+                                convolutional layers can be followed by
+                                additional convolutional layers or pooling layers, the fully-connected layer is the
+                                final layer. With each layer, the
+                                CNN increases in its complexity, identifying greater portions of the image. Earlier
+                                layers focus on simple features,
+                                such as colors and edges. As the image data progresses through the layers of the CNN, it
+                                starts to recognize larger
+                                elements or shapes of the object until it finally identifies the intended object.</p>
+
+                            <h2 class="">Convolutional Layer</h2>
+
+                            <p>The convolutional layer is the core building block of a CNN, and it is where the majority
+                                of computation occurs. It
+                                requires a few components, which are input data, a filter, and a feature map. Let’s
+                                assume that the input will be a
+                                color image, which is made up of a matrix of pixels in 3D. This means that the input
+                                will have three dimensions—a
+                                height, width, and depth—which correspond to RGB in an image. We also have a feature
+                                detector, also known as a kernel or
+                                a filter, which will move across the receptive fields of the image, checking if the
+                                feature is present. This process is
+                                known as a convolution.
+                            </p>
+                            <p>The feature detector is a two-dimensional (2-D) array of weights, which represents part
+                                of the image. While they can
+                                vary in size, the filter size is typically a 3x3 matrix; this also determines the size
+                                of the receptive field. The
+                                filter is then applied to an area of the image, and a dot product is calculated between
+                                the input pixels and the filter.
+                                This dot product is then fed into an output array. Afterwards, the filter shifts by a
+                                stride, repeating the process
+                                until the kernel has swept across the entire image. The final output from the series of
+                                dot products from the input and
+                                the filter is known as a feature map, activation map, or a convolved feature.</p>
+                            <div class=" bg-size">
+                                <img src="img/ICLH_Diagram_Batch_02_17A-ConvolutionalNeuralNetworks-WHITEBG.webp">
+                            </div>
+                            <p>As you can see in the image above, each output value in the feature map does not have to
+                                connect to each pixel value in
+                                the input image. It only needs to connect to the receptive field, where the filter is
+                                being applied. Since the output
+                                array does not need to map directly to each input value, convolutional (and pooling)
+                                layers are commonly referred to as
+                                “partially connected” layers. However, this characteristic can also be described as
+                                local connectivity.</p>
+                            <p>
+                                Note that the weights in the feature detector remain fixed as it moves across the image,
+                                which is also known as
+                                parameter sharing. Some parameters, like the weight values, adjust during training
+                                through the process of
+                                backpropagation and gradient descent. However, there are three hyperparameters which
+                                affect the volume size of the
+                                output that need to be set before the training of the neural network begins. These
+                                include:
+                            </p>
+                            <div>
+
+                                <h3>CNN layer parameter</h3>
+                                <p>frist you pass your data then </p>
+                                <p><span class="package-color">number of filters : </span>affects the depth of the
+                                    output. For example, three distinct filters would yield three different feature
+                                    maps, creating
+                                    a depth of three.</p>
+                                <p><span class="package-color">Stride : </span>Fis the distance, or number of pixels,
+                                    that the kernel moves over the input matrix. While stride values of two or greater
+                                    is rare, a larger stride yields a smaller output.</p>
+                                <p><span class="package-color">Zero-padding : </span>is usually used when the
+                                    filters do
+                                    not fit the input image. This sets all elements that fall outside of the input
+                                    matrix to zero, producing a larger or equally sized output. There are three
+                                    types of
+                                    padding:</p>
+                                <ul>
+
+
+                                    <li>
+                                        <p><span class="package-color">Valid padding : </span>This is also known as no
+                                            padding. In this case, the last convolution is dropped if dimensions do not
+                                            align.</p>
+                                    </li>
+                                    <li>
+                                        <p><span class="package-color">Same padding : </span>This padding ensures that
+                                            the output layer has the same size as the input layer</p>
+                                    </li>
+                                    <li>
+                                        <p><span class="package-color">Full padding : </span>This type of padding
+                                            increases the size of the output by adding zeros to the border of the input.
+                                        </p>
+                                    </li>
+                                </ul>
+
+
+                            </div>
+                            <div>
+                                <h2>build CNN model</h2>
+                                <p>now we will know how to use CNN </p>
+                                <h3>import package</h3>
+                                <div class="" id="Install">
+                                    <code class="flex" style="width:100%;">
+                                        <p class="line "  id="myText" style="padding-left: 5px;">from <span class="import-color">Energy_Models</span> import 
+                                        <span class="import-color">CNN</span> as <span class="import-color">m</span>
+                                        </p>
+                                        <!-- <button class="icon" onclick="copyContent()"><i class="ri-file-copy-line"></i></button> -->
+                                    </code>
+                                </div>
+                                <div>
+                                    <h3>call the model</h3>
+                                    <div class="" id="Install">
+                                        <code class="flex" style="width:100%;">
+                                            <p class="line "  id="myText" style="padding-left: 5px;">model = m.<span class="import-color">CNN(<span class="package-color">n_steps,n_features,n_outputs</span>)</span>.getModel()
+                                            </p>
+                                            <!-- <button class="icon" onclick="copyContent()"><i class="ri-file-copy-line"></i></button> -->
+                                        </code>
+                                    </div>
+                                    <h4>model's parameter</h4>
+                                    <p><span class="package-color">n_steps</span> : number of days you want to
+                                        predict
+                                        on
+                                    </p>
+                                    <p><span class="package-color">n_features</span> : number of columns in data
+                                        that
+                                        will
+                                        give to model</p>
+                                    <p><span class="package-color">n_outputs</span> : number of coulmns that model
+                                        will
+                                        predict and by default its equal 1</p>
+                                </div>
+                                <div>
+                                    <h3>compile the model</h3>
+                                    <div class="" id="Install">
+                                        <code class="flex" style="width:100%;">
+                                            <p class="line "  id="myText" style="padding-left: 5px;">model.compile(<span class="import-color">optimizer='adam', loss ='mse'</span>)
+                                            </p>
+                                            <!-- <button class="icon" onclick="copyContent()"><i class="ri-file-copy-line"></i></button> -->
+                                        </code>
+                                    </div>
+                                    <h4>compile parameter </h4>
+                                    <p><span class="package-color">optimizer : </span> While training the deep
+                                        learning
+                                        model, we need to modify each epoch’s weights and minimize the loss
+                                        function. An
+                                        optimizer is a function or an algorithm that modifies the attributes of the
+                                        neural network, such as weights and learning
+                                        rate. Thus, it helps in reducing the overall loss and improve the accuracy.
+                                        <span class="mid_grey">here we use adam</span>
+                                    </p>
+                                    <p><span class="package-color">loss : </span>the Loss function is a method of
+                                        evaluating how well your algorithm is modeling your dataset</p>
+                                </div>
+                                <div>
+                                    <h3>fit the model</h3>
+                                    <div class="" id="Install">
+                                        <code class="flex" style="width:100%;">
+                                            <p class="line "  id="myText" style="padding-left: 5px;">history = model.fit(<span class="import-color">X_train, y_train, batch_size=256, validation_split=0.3,epochs=85, verbose=1,
+                                            shuffle=False)</span>
+                                            </p>
+                                            <!-- <button class="icon" onclick="copyContent()"><i class="ri-file-copy-line"></i></button> -->
+                                        </code>
+                                    </div>
+                                    <h4>fit's parameter</h4>
+                                    <p>frist you pass your data then </p>
+                                    <p><span class="package-color">batch_size : </span>refers to the number of
+                                        training
+                                        examples utilized in one iteration</p>
+                                    <p><span class="package-color">validation_split : </span>Float between 0 and 1.
+                                        Fraction of the training data to be used as validation data; selected from
+                                        the
+                                        last samples in the x and y data provided, before shuffling.</p>
+                                    <p><span class="package-color">epochs : </span>The number of epochs is a
+                                        hyperparameter
+                                        that defines the number times that the learning algorithm will work through
+                                        the
+                                        entire training dataset.</p>
+                                    <p><span class="package-color">verbose : </span>By setting verbose 0, 1 or 2 you
+                                        just
+                                        say how do you want to 'see' the training progress for each epoch.</p>
+
+                                </div>
+
+                                <div>
+
+
+                                    <h3>predict the moodel for testing</h3>
+                                    <div class="" id="Install">
+                                        <code class="flex" style="width:100%;">
+                                            <p class="line "  id="myText" style="padding-left: 5px;"><span class="import-color">y_pred_test</span>
+                                                =m.predict((<span class="import-color">X_test</span>
+                                            )</p>
+                                            <!-- <button class="icon" onclick="copyContent()"><i class="ri-file-copy-line"></i></button> -->
+                                        </code>
+                                    </div>
+                                </div>
+                                <div>
+
+
+                                    <h3>predict the moodel for training</h3>
+                                    <div class="" id="Install">
+                                        <code class="flex" style="width:100%;">
+                                            <p class="line "  id="myText" style="padding-left: 5px;"><span class="import-color">y_pred_test</span>
+                                                =m.predict((<span class="import-color">X_train</span>
+                                            )</p>
+                                            <!-- <button class="icon" onclick="copyContent()"><i class="ri-file-copy-line"></i></button> -->
+                                        </code>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h3>Evaluation_Metrix</h3>
+                                    <h3>import package</h3>
+                                    <div class="" id="Install">
+                                        <code class="flex" style="width:100%;">
+                                        <p class="line "  id="myText" style="padding-left: 5px;">from <span class="import-color">Energy_Models</span> import 
+                                        <span class="import-color">Evaluation_Metrix</span> as <span>mx</span>
+                                        </p>
+                                        <!-- <button class="icon" onclick="copyContent()"><i class="ri-file-copy-line"></i></button> -->
+                                    </code>
+                                    </div>
+                                    <div class="" id="Install">
+                                        <code class="flex" style="width:100%;">
+                                            <p class="line "  id="myText" style="padding-left: 5px;">mx.print_metrics(<span class="import-color">y_train,y_pred_train,y_test
+                                                ,y_pred_test</span>
+                                                =m.predict((<span class="import-color">X_train</span>
+                                            )</p>
+                                            <!-- <button class="icon" onclick="copyContent()"><i class="ri-file-copy-line"></i></button> -->
+                                        </code>
+                                    </div>
+                                </div>
+                                <h3>build it from scratch</h3>
+                                <div class="" id="Install">
+                                    <code class="flex" style="width:100%;">
+                                            <p class="line "  id="myText" style="padding-left: 5px;"> <a href="https://github.com/IntElligence0/Energy_apps_Tk/blob/main/models_from_scratch/CNN.py" class=""><span class="import-color padding">THE SOURCE CODE <i style="float:right;" class="padding ri-code-box-fill"></i></span></a>
+                                            </p>
+                                            <!-- <button class="icon" onclick="copyContent()"><i class="ri-file-copy-line"></i></button> -->
+                                        </code>
+                                </div>
+                            </div>
+                        </main>
+                        <nav id="toc" class="Fixed">
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg text-center text-lg-start txt-white">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright:
+            <a class="txt-white" href="">created by Int Elligence Team</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
